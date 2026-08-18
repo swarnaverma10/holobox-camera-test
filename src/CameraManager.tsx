@@ -27,7 +27,6 @@ export const CameraManager: React.FC = () => {
   const [windowSize, setWindowSize] = useState({ w: window.innerWidth, h: window.innerHeight });
 
   // Diagnostics
-  const [diagPoseLoaded, setDiagPoseLoaded] = useState('NO');
   const [diagPoseRunning, setDiagPoseRunning] = useState('NO');
   const [diagLandmarks, setDiagLandmarks] = useState(0);
 

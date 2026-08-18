@@ -1,4 +1,3 @@
-import React from 'react';
 import { CameraManager } from './CameraManager';
 
 function App() {
